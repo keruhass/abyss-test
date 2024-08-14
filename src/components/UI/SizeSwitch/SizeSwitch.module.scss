@@ -1,0 +1,51 @@
+$book: Gotham-Book;
+$medium: Gotham-Medium;
+
+.content {
+
+    width: 415px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    border: 1px solid black;
+}
+
+.contentSizeSwitch {
+    display: flex;
+    gap: 20px;
+}
+
+.contentButton {
+
+    cursor: pointer;
+
+    width: 75px;
+    height: 35px;
+
+    border-radius: 15px;
+    background-color: transparent;
+    border: 2px solid rgb(68, 68, 68);
+
+    transition: all 0.3s ease;
+}
+
+a {
+    font-family: $medium;
+}
+
+.contentButtonActive {
+
+    cursor: pointer;
+
+    width: 75px;
+    height: 35px;
+
+    border-radius: 15px;
+    background-color: transparent;
+    border: 2px solid white;
+
+    transition: all 0.5s ease;
+
+}

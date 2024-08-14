@@ -1,0 +1,82 @@
+$medium: Gotham-Medium;
+$book: Gotham-Book;
+
+.paymentData {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .paymentDataContacts {
+
+        width: 580px;
+        margin: 0 auto;
+
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        gap: 10px;
+
+        a {
+            font-size: 24px;
+            font-family: $medium;
+            text-align: left;
+        }
+
+        .paymentDataContactsNews {
+
+            height: 18px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+
+            a {
+                font-family: $book;
+                font-size: 16px;
+            }
+        }
+    }
+
+    .paymentDataDelivery {
+
+        width: 580px;
+        margin: 0 auto;
+
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        a {
+            font-family: $medium;
+            font-size: 24px;
+            align-self: flex-start;
+        }
+
+        .paymentDataDeliveryInputs {
+
+            background: black;
+            
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        
+    }
+
+    .paymentDataDeliveryMethod {
+
+        width: 580px;
+        margin: 0 auto;
+
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        align-items: flex-start;
+
+        .paymentDataDeliveryMethodDesc {
+            font-family: $medium;
+            font-size: 24px;
+        }
+    }
+}

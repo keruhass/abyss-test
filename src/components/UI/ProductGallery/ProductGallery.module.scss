@@ -1,0 +1,22 @@
+.gallery {
+
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 6px;
+    width: 935px;
+    height: 100vh;
+
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+    img {
+        width: 462px;
+    }
+}
+
+.gallery::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}

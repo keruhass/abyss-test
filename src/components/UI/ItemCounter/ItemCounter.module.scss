@@ -1,0 +1,35 @@
+$book: Gotham-Book;
+
+.content {
+    width: 135px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+
+    border-radius: 24px;
+    border: 2px solid white;
+
+    a {
+        font-family: $book;
+        font-size: 24px;
+    }
+
+    button {
+        border: none;
+        background: transparent;
+        margin-left: 20px;
+        margin-right: 20px;
+
+        a {
+            color: white;
+            margin: auto 0;
+            font-family: $book;
+            font-size: 24px;
+        }
+        a:hover {
+            color: #A9A9A9;
+            transition: all 0.1s ease;
+        }
+    }
+}

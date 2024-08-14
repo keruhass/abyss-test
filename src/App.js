@@ -1,24 +1,57 @@
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+
+import ProductPage from './pages/ProductPage';
+import LoginPage from './pages/LoginPage';
+import CartPage from './pages/CartPage';
+import PaymentPage from './pages/PaymentPage';
+
+import { useState } from 'react';
+
+import { ItemContext } from './context';
+
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <LoginPage/>,
+    errorElement: <LoginPage />
+  },
+  {
+    path: "product",
+    element: <ProductPage/>
+  },
+  {
+    path: "cart",
+    element: <CartPage/>
+  },
+  {
+    path: "payment",
+    element: <PaymentPage/>
+  },
+]);
+
 
 function App() {
+
+  const [items, setItems] = useState([
+    // {id: 1, size: 'L', amount: 8},
+  ])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ItemContext.Provider value={{
+      items,
+      setItems
+    }}>
+      <div className="App">
+        <RouterProvider router={router} />
+      </div>
+    </ItemContext.Provider>
+    
   );
 }
 

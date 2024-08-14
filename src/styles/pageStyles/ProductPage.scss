@@ -1,0 +1,13 @@
+.productPage {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
+    //  Место под навбар + отступ
+}
+.productPageContent {
+    display: flex;
+    gap: 24px;
+
+    margin: 37px auto 0px auto;
+}

@@ -1,0 +1,13 @@
+$book: Gotham-Book;
+
+.btn {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 50px;
+
+    font-size: 32px;
+    font-family: $book;
+    color: white;
+
+    cursor: pointer;
+}

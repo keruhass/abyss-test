@@ -1,0 +1,53 @@
+$medium: Gotham-Medium;
+$book: Gotham-Book;
+
+.cart-content {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    
+    .cart-content-navigation {
+
+        width: 1200px;
+        height: 84px;
+        margin: 0 auto;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        a {
+            font-family: $book;
+            font-size: 16px;
+        }
+    }
+
+    .cart-content-totalPriceСounter {
+
+        // border: 1px solid white;
+
+        width: 1200px;
+        height: 80px;
+
+        margin: auto auto -30px auto;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        a {
+            font-family: $book;
+            font-size: 32px;
+            font-weight: lighter;
+        }
+    }
+}
+
+// .govno {
+//     width: 99vw;
+//     min-height: 100vh;
+//     overflow-y: scroll;
+// }

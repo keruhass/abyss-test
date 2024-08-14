@@ -1,0 +1,71 @@
+$book: Gotham-Book;
+$medium: Gotham-Medium;
+$bold: Gotham-Bold;
+$italic: Gotham-Medium-Italic;
+
+.content {
+    width: 1200px;
+    height: 200px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0 auto;
+
+    a {
+        font-family: $book;
+        font-weight: lighter;
+        font-size: 32px;
+    }
+}
+
+.info {
+
+    width: 613px;
+
+    display: flex;
+    gap: 20px;
+
+    .description {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
+        a {
+            text-align: left;
+            font-family: $book;
+            color: white;
+        }
+
+        i {
+            font-weight: bold;
+        }
+
+        .heading {
+            margin-top: 18px;
+            font-size: 32px;
+        }
+
+        .size {
+            margin-top: 18px;
+            font-size: 19px;
+            margin-bottom: 45px;
+        }
+    }
+}
+.price-enter {
+    opacity: 0;
+}
+.price-enter-active {
+    opacity: 1;
+    transition: all 500ms ease-in;
+}
+.price-exit {
+    opacity: 1;
+}
+.price-exit-active {
+    opacity: 0;
+    transition: all 500ms ease-in;
+}

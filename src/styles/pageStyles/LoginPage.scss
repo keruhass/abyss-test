@@ -1,0 +1,22 @@
+.loginPage {
+    height: 100vh;
+    display: grid;
+}
+.loginPageContent {
+
+    align-self: center;
+    justify-self: center;
+
+    width: 450px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+
+
+    img {
+        width: 450px;
+        height: 450px;
+    }
+}

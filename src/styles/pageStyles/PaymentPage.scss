@@ -1,0 +1,33 @@
+.paymentPage {
+    width: 1400px;
+    height: 99.5vh;
+
+    display: flex;
+
+    margin: 0 auto;
+
+    overflow-y: hidden;
+
+}
+
+.paymentPageData {
+
+    display: flex;
+    gap: 10px;
+    
+    width: 700px;
+
+    img {
+        align-self: flex-start;
+        width: 50px;
+        margin-top: 40px;
+    }
+}
+
+.paymentPageItems {
+    border-left: 1px solid white;
+    display: flex;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}

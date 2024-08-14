@@ -1,0 +1,42 @@
+.content {
+
+    width: 17px;
+    height: 17px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+
+    color: white;
+    font-size: 17px;
+    text-align: center;
+
+    a {
+        color: black;
+    }
+}
+
+.contentChecked {
+    width: 17px;
+    height: 17px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: white;
+    border: 2px solid white;
+    border-radius: 5px;
+
+    color: white;
+    font-size: 17px;
+    text-align: center;
+
+    a {
+        color: black;
+    }
+}

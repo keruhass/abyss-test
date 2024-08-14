@@ -1,0 +1,27 @@
+$book: Gotham-Book;
+$medium: Gotham-Medium;
+$bold: Gotham-Bold;
+$italic: Gotham-Medium-Italic;
+
+.content {
+    display: flex;
+    justify-content: center;
+    // border: 1px solid white;
+    height: 84px;
+
+    img {
+        margin: auto 0;
+        width: 44px;
+    }
+
+    a {
+        font-size: 19px;
+        font-family: $book;
+
+        position: absolute;
+        left: 85%;
+        top: 33px;
+
+        //ToDo Переделать позиционирование 
+    }
+}
