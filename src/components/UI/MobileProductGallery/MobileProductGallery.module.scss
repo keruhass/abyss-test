@@ -1,0 +1,24 @@
+.gallery {
+    width: 370px;
+    height: 493px;
+    overflow: hidden;
+
+    img {
+        width: 370px;
+        height: 493px;
+    }
+
+    .galleryButtons {
+        position: absolute;
+
+        width: 370px;
+        height: 493px;
+
+        button {
+            width: 50%;
+            height: 493px;
+            background: transparent;
+            border: none;
+        }
+    }
+}

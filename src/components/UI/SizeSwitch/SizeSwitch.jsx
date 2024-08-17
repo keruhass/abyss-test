@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 
+import { useMediaQuery } from '../../../Hooks/useMediaQuery'
+
 import cl from './SizeSwitch.module.scss'
 
 import StandartButton from '../StandartButton/StandartButton'
@@ -14,6 +16,8 @@ const SizeSwitch = ({create}) => {
     }
 
     {/* To do: Переделать по человечески */}
+
+    const mobile = useMediaQuery("(max-width: 1200px)");
 
   return (
 
@@ -55,7 +59,7 @@ const SizeSwitch = ({create}) => {
                 <a>XXL</a>
             </button>
         </div>
-        <StandartButton style={{width: '415px', height: '35px'}} onClick={createNewItem}>В корзину</StandartButton>
+        <StandartButton style={mobile ? {width: '370px', height: '32px', } : {width: '415px', height: '35px', }} onClick={createNewItem}>В корзину</StandartButton>
         
     </div>
   )

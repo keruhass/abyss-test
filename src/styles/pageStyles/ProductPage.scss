@@ -6,8 +6,25 @@
     //  Место под навбар + отступ
 }
 .productPageContent {
+    margin: 0 auto;
     display: flex;
     gap: 24px;
 
     margin: 37px auto 0px auto;
+}
+
+@media (max-width: 1200px) {
+    
+    .productPage {
+        max-width: 390px;
+    }
+
+    .productPageContent {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    
+        margin: 37px auto 0px auto;
+    }
 }

@@ -49,3 +49,55 @@ a {
     transition: all 0.5s ease;
 
 }
+
+@media (max-width: 1200px) {
+
+    .content {
+
+        width: 370px;
+    
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+    
+    .contentSizeSwitch {
+        display: flex;
+        gap: 20px;
+    }
+    
+    .contentButton {
+    
+        cursor: pointer;
+    
+        width: 65px;
+        height: 30px;
+    
+        border-radius: 15px;
+        background-color: transparent;
+        border: 2px solid rgb(68, 68, 68);
+    
+        transition: all 0.3s ease;
+    }
+    
+    a {
+        font-family: $medium;
+        font-size: 12px;
+    }
+    
+    .contentButtonActive {
+    
+        cursor: pointer;
+    
+        width: 65px;
+        height: 30px;
+    
+        border-radius: 15px;
+        background-color: transparent;
+        border: 2px solid white;
+    
+        transition: all 0.5s ease;
+    
+    }
+}

@@ -16,7 +16,6 @@ a, u {
     display: flex;
     flex-direction: column;
     gap: 18px;
-    border: 1px solid black;
 }
 
 .content-heading {
@@ -68,3 +67,67 @@ a, u {
     }
 }
 
+@media (max-width: 1200px) {
+
+    .content {
+
+        // border: 1px solid gold;
+
+        width: 370px;
+        height: 425px;
+        padding: 24px 0;
+    
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+    }
+    
+    .content-heading {
+    
+        text-align: left;
+    
+        a {
+            font-family: $book;
+            font-size: 28px;
+        }
+    }
+    
+    .content-description {
+    
+        display: flex;
+        flex-direction: column;
+    
+        a {
+            font-family: $book;
+            font-size: 14px;
+            text-align: left;
+        }
+    }
+    
+    .content-price {
+    
+        text-align: left;
+    
+        a {
+            font-family: $medium;
+            font-size: 28px;
+        }
+    }
+    
+    .content-sizetable {
+    
+        display: flex;
+        text-align: left;
+        gap: 10px;
+    
+        a {
+            font-family: $book;
+            font-size: 14px;
+        }
+    
+        u {
+            font-family: $book;
+            font-size: 14px;
+        }
+    }
+}
