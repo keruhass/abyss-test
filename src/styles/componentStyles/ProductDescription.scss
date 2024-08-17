@@ -73,19 +73,14 @@ a, u {
 
         // border: 1px solid gold;
 
-        width: 350px;
+        width: 320px;
         height: 425px;
         padding: 24px 0;
         margin: 0 auto;
     
-        display: flex;
-        flex-direction: column;
-        gap: 18px;
     }
     
     .content-heading {
-    
-        text-align: left;
     
         a {
             font-family: $book;
@@ -95,39 +90,28 @@ a, u {
     
     .content-description {
     
-        display: flex;
-        flex-direction: column;
-    
         a {
-            font-family: $book;
-            font-size: 14px;
-            text-align: left;
+            font-size: 13px;
         }
     }
     
     .content-price {
     
-        text-align: left;
     
         a {
-            font-family: $medium;
             font-size: 28px;
         }
     }
     
     .content-sizetable {
     
-        display: flex;
-        text-align: left;
         gap: 10px;
     
         a {
-            font-family: $book;
             font-size: 14px;
         }
     
         u {
-            font-family: $book;
             font-size: 14px;
         }
     }

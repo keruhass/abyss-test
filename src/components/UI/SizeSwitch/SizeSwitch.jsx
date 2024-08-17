@@ -59,7 +59,7 @@ const SizeSwitch = ({create}) => {
                 <a>XXL</a>
             </button>
         </div>
-        <StandartButton style={mobile ? {width: '350px', height: '32px', } : {width: '415px', height: '35px', }} onClick={createNewItem}>В корзину</StandartButton>
+        <StandartButton style={mobile ? {width: '320px', height: '32px', } : {width: '415px', height: '35px', }} onClick={createNewItem}>В корзину</StandartButton>
         
     </div>
   )
