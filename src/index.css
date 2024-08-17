@@ -28,3 +28,9 @@ code {
 h1 {
   color: white;
 }
+@media (max-width: 1200px) {
+  html {
+    width: 390px;
+    overflow-x: hidden;
+  }
+}
