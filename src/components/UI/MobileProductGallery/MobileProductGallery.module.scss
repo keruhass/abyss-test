@@ -1,22 +1,23 @@
 .gallery {
-    width: 300px;
-    height: 400px;
+    width: 320px;
+    height: 426px;
     overflow: hidden;
+    margin: 0 auto;
 
     img {
-        width: 300px;
-        height: 400px;
+        width: 320px;
+        height: 426px;
     }
 
     .galleryButtons {
         position: absolute;
 
-        width: 300px;
-        height: 400px;
+        width: 320px;
+        height: 426px;
 
         button {
             width: 50%;
-            height: 400px;
+            height: 426px;
             background: transparent;
             border: none;
         }
