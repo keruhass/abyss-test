@@ -36,3 +36,33 @@ $book: Gotham-Book;
         color: rgb(256, 256, 256, 50%);
     }
 }
+
+@media (max-width: 1200px) {
+    .checkOutButton {
+    
+        // position: fixed;
+        // bottom: 20px;
+        // left: 50%;
+        // transform: translateX(-50%);
+        // margin-top: auto;
+        // margin-bottom: 20px;
+        // margin-left: auto;
+        // margin-right: auto;
+    
+        margin: auto auto 20px auto;
+    
+        width: 320px;
+        height: 40px;
+    
+        border: 1px solid white;
+        background: transparent;
+        border-radius: 50px;
+    
+        cursor: pointer;
+    
+        a {
+            font-family: $book;
+            font-size: 18px;
+        }
+    }
+}

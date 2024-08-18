@@ -46,6 +46,58 @@ $book: Gotham-Book;
     }
 }
 
+@media (max-width: 1200px) {
+
+    .cart-content {
+        min-height: 100vh;
+
+        max-width: 390px;
+    
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    
+        
+        .cart-content-navigation {
+
+            border: 1px solid gold;
+    
+            width: 320px;
+            height: 50px;
+            margin: 0 auto;
+    
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+    
+            a {
+                font-family: $book;
+                font-size: 16px;
+            }
+        }
+    
+        .cart-content-totalPriceСounter {
+    
+            // border: 1px solid white;
+    
+            width: 1200px;
+            height: 80px;
+    
+            margin: auto auto -30px auto;
+    
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+    
+            a {
+                font-family: $book;
+                font-size: 32px;
+                font-weight: lighter;
+            }
+        }
+    }
+}
+
 // .govno {
 //     width: 99vw;
 //     min-height: 100vh;

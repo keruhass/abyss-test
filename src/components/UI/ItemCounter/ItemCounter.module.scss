@@ -33,3 +33,51 @@ $book: Gotham-Book;
         }
     }
 }
+
+@media (max-width: 1200px) {
+    .content {
+        width: 75px;
+        height: 20px;
+    
+        display: flex;
+        align-items: center;
+    
+        border-radius: 24px;
+        border: 2px solid white;
+    
+        a {
+            font-family: $book;
+            font-size: 16px;
+            margin-left: 35px;
+        }
+    
+        button {
+            position: absolute;
+            border: none;
+            background: transparent;
+            // margin-left: 6px;
+            // margin-right: 6px;
+
+            
+    
+            a {
+                color: white;
+                margin: auto 0;
+                font-family: $book;
+                font-size: 16px;
+            }
+            a:hover {
+                color: #A9A9A9;
+                transition: all 0.1s ease;
+            }
+        }
+
+        .fir {
+            margin-left: 5px;      
+        }
+
+        .sec {
+            margin-left: 50px;
+        }
+    }
+}

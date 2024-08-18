@@ -36,9 +36,9 @@ const ItemCounter = ({id, amount}) => {
 
   return (
     <div className={cl.content}>
-      <button onClick={decrement}><a>-</a></button>
+      <button className={cl.fir} onClick={decrement}><a>-</a></button>
       <a>{amount}</a>
-      <button onClick={increment}><a>+</a></button>
+      <button className={cl.sec} onClick={increment}><a>+</a></button>
     </div>
   )
 }

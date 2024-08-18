@@ -22,7 +22,7 @@ const ProductCard = (props) => {
               <a className={cl.size}>Размер: {props.item.size}</a>
               <div style={{display: 'flex', gap: '10px'}}>
                 <ItemCounter id={props.item.id} amount={props.item.amount}/> {/* Working on*/}
-                <img style={{width: '30px', cursor: 'pointer'}} src={trash} onClick={() => props.remove(props.item)}/>
+                <img src={trash} onClick={() => props.remove(props.item)}/>
               </div>
             </div>
         </div>

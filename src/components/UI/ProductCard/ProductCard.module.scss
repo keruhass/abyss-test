@@ -33,6 +33,11 @@ $italic: Gotham-Medium-Italic;
         flex-direction: column;
         justify-content: flex-start;
 
+        img {
+            width: 30px;
+            cursor: pointer;
+        }
+
         a {
             text-align: left;
             font-family: $book;
@@ -68,4 +73,73 @@ $italic: Gotham-Medium-Italic;
 .price-exit-active {
     opacity: 0;
     transition: all 500ms ease-in;
+}
+
+@media (max-width: 1200px) {
+    .content {
+
+        border: 1px solid gold;
+
+        width: 320px;
+        height: 75px;
+    
+        display: flex;
+        // justify-content: space-between;
+        align-items: center;
+    
+        margin: 0 auto;
+
+        // overflow-x: hidden;
+    
+        a {
+            font-family: $book;
+            font-weight: lighter;
+            font-size: 14px;
+        }
+    }
+    
+    .info {
+    
+        // width: 613px;
+    
+        display: flex;
+        gap: 10px;
+
+        img {
+            width: 75px;
+        }
+    
+        .description {
+    
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+
+            img {
+                width: 20px;
+            }
+    
+            a {
+                text-align: left;
+                font-family: $book;
+                color: white;
+            }
+    
+            i {
+                font-weight: bold;
+            }
+    
+            .heading {
+                margin-top: 0px;
+                font-size: 14px;
+                margin-top: 0px;
+            }
+    
+            .size {
+                margin-top: 10px;
+                font-size: 12px;
+                margin-bottom: 12px;
+            }
+        }
+    }
 }
